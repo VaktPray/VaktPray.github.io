@@ -11,12 +11,15 @@
         privacyTitle: "Privacy Policy | VaktPray",
         privacyDescription: "Privacy policy for the VaktPray iOS app.",
         supportTitle: "Support | VaktPray",
-        supportDescription: "Support contact information for the VaktPray iOS app."
+        supportDescription: "Support contact information for the VaktPray iOS app.",
+        screenshotsTitle: "Screenshots | VaktPray",
+        screenshotsDescription: "Screenshots of the VaktPray iOS app, widgets, settings, notifications, and support screens."
       },
       common: {
         language: "Language",
         privacy: "Privacy",
         privacyPolicy: "Privacy Policy",
+        screenshots: "Screenshots",
         support: "Support",
         showSupportEmail: "Show support email",
         showSupportEmailLower: "show support email"
@@ -24,6 +27,7 @@
       home: {
         heroEyebrow: "Prayer times for iPhone",
         heroText: "An offline iOS app focused exclusively on Islamic prayer times for 🇧🇦 Bosnia and Herzegovina, with daily prayer notifications, widgets, night-time information, and Apple Watch support. No data collected.",
+        screenshotsButton: "Screenshots",
         detailsEyebrow: "App Details",
         detailsTitle: "Built for daily prayer time checks",
         offlineTitle: "Offline prayer data",
@@ -37,6 +41,55 @@
         linksEyebrow: "App Store Links",
         linksTitle: "Public URLs",
         linksBody: "These pages are available for users and App Store review."
+      },
+      screenshots: {
+        eyebrow: "Screenshots",
+        title: "VaktPray Screenshots",
+        lede: "A closer look at the prayer time screens, widgets, notification settings, and app information pages.",
+        prayerEyebrow: "Prayer Times",
+        prayerTitle: "Daily prayer schedule views",
+        bosnianHomeAlt: "Bosnian prayer time screen showing the selected city, date, current time, and daily prayer schedule.",
+        bosnianHomeTitle: "Bosnian home screen",
+        bosnianHomeBody: "The Bosnian interface shows the selected city, date, current time, and the full daily vakt schedule.",
+        englishNamesAlt: "English prayer time screen with English prayer names and a countdown to the next prayer.",
+        englishNamesTitle: "English prayer names",
+        englishNamesBody: "The English interface can show familiar prayer names such as Fajr, Dhuhr, Asr, Maghrib, and Isha.",
+        bosnianNamesAlt: "English prayer time screen using Bosnian prayer names and showing the next prayer countdown.",
+        bosnianNamesTitle: "Bosnian prayer names",
+        bosnianNamesBody: "The English interface can also display Bosnian prayer names for users who prefer local terminology.",
+        nightInfoAlt: "English prayer time screen showing last half and last third of the night information.",
+        nightInfoTitle: "Night-time information",
+        nightInfoBody: "Optional night-time information can show when the last half and last third of the night begin.",
+        simpleScheduleAlt: "English prayer time screen focused on the selected city, date, and daily schedule.",
+        simpleScheduleTitle: "Daily schedule",
+        simpleScheduleBody: "A clean schedule view keeps the selected city, date, and daily prayer times easy to scan.",
+        widgetsEyebrow: "Widgets",
+        widgetsTitle: "Prayer times on the Home Screen",
+        widgetsOverviewAlt: "iPhone Home Screen showing VaktPray widgets for countdowns, daily prayer times, and night-time information.",
+        widgetsOverviewTitle: "Widget options",
+        widgetsOverviewBody: "The widgets can show the next prayer countdown, today's prayer times, compact countdowns, and night-time information.",
+        settingsEyebrow: "Settings",
+        settingsTitle: "Language, display, and notification controls",
+        settingsBosnianGeneralAlt: "Bosnian settings screen with language, additional time information, notification sounds, and notification timing controls.",
+        settingsBosnianGeneralTitle: "Bosnian settings",
+        settingsBosnianGeneralBody: "The Bosnian settings screen includes language selection, additional time information, notification sounds, and timing options.",
+        settingsBosnianNotificationsAlt: "Bosnian notification settings screen with per-prayer reminder controls and Dhuhr mosque schedule options.",
+        settingsBosnianNotificationsTitle: "Bosnian notification settings",
+        settingsBosnianNotificationsBody: "Per-prayer reminder controls let users decide which notifications are scheduled and when they should appear.",
+        settingsEnglishGeneralAlt: "English settings screen with language, additional time information, notification sounds, and notification timing controls.",
+        settingsEnglishGeneralTitle: "English settings",
+        settingsEnglishGeneralBody: "The English settings screen offers the same language, display, sound, and notification timing options.",
+        settingsEnglishNotificationsAlt: "English notification settings screen with per-prayer reminder controls and Dhuhr mosque schedule options.",
+        settingsEnglishNotificationsTitle: "English notification settings",
+        settingsEnglishNotificationsBody: "Notification controls include separate settings for each prayer and options for the Dhuhr mosque schedule.",
+        aboutEyebrow: "About",
+        aboutTitle: "Privacy and support information",
+        aboutBosnianAlt: "Bosnian about screen with version, privacy, notification, support, email, and website information.",
+        aboutBosnianTitle: "Bosnian about screen",
+        aboutBosnianBody: "The Bosnian About page summarizes the app version, privacy details, notification behavior, support, and website information.",
+        aboutEnglishAlt: "English about screen with version, privacy, notification, support, email, and website information.",
+        aboutEnglishTitle: "English about screen",
+        aboutEnglishBody: "The English About page gives users the same app version, privacy, notification, support, and website details."
       },
       privacy: {
         eyebrow: "Privacy Policy",
@@ -84,12 +137,15 @@
         privacyTitle: "Pravila privatnosti | VaktPray",
         privacyDescription: "Pravila privatnosti za VaktPray iOS aplikaciju.",
         supportTitle: "Podrška | VaktPray",
-        supportDescription: "Kontakt informacije za podršku za VaktPray iOS aplikaciju."
+        supportDescription: "Kontakt informacije za podršku za VaktPray iOS aplikaciju.",
+        screenshotsTitle: "Snimci ekrana | VaktPray",
+        screenshotsDescription: "Snimci ekrana VaktPray iOS aplikacije, widgeta, postavki, obavijesti i stranica podrške."
       },
       common: {
         language: "Jezik",
         privacy: "Privatnost",
         privacyPolicy: "Pravila privatnosti",
+        screenshots: "Snimci ekrana",
         support: "Podrška",
         showSupportEmail: "Prikaži email podrške",
         showSupportEmailLower: "prikaži email podrške"
@@ -97,6 +153,7 @@
       home: {
         heroEyebrow: "Vaktija za iPhone",
         heroText: "Offline iOS aplikacija namijenjena isključivo islamskim vremenima namaza u 🇧🇦 Bosni i Hercegovini, s obavijestima za dnevne namaze, widgetima, informacijama o noćnom vremenu i podrškom za Apple Watch. Podaci se ne prikupljaju.",
+        screenshotsButton: "Snimci ekrana",
         detailsEyebrow: "Detalji aplikacije",
         detailsTitle: "Napravljena za svakodnevnu provjeru vakta",
         offlineTitle: "Offline vaktija",
@@ -110,6 +167,55 @@
         linksEyebrow: "App Store linkovi",
         linksTitle: "Javni URL-ovi",
         linksBody: "Ove stranice su dostupne korisnicima i App Store pregledu."
+      },
+      screenshots: {
+        eyebrow: "Snimci ekrana",
+        title: "VaktPray snimci ekrana",
+        lede: "Detaljniji prikaz ekrana vaktije, widgeta, postavki obavijesti i informacija o aplikaciji.",
+        prayerEyebrow: "Vaktija",
+        prayerTitle: "Dnevni prikazi rasporeda namaza",
+        bosnianHomeAlt: "Bosanski ekran vaktije koji prikazuje odabrani grad, datum, trenutno vrijeme i dnevni raspored namaza.",
+        bosnianHomeTitle: "Bosanski početni ekran",
+        bosnianHomeBody: "Bosanski interfejs prikazuje odabrani grad, datum, trenutno vrijeme i kompletan dnevni raspored vakta.",
+        englishNamesAlt: "Engleski ekran vaktije s engleskim nazivima namaza i odbrojavanjem do sljedećeg namaza.",
+        englishNamesTitle: "Engleski nazivi namaza",
+        englishNamesBody: "Engleski interfejs može prikazati poznate nazive namaza kao Fajr, Dhuhr, Asr, Maghrib i Isha.",
+        bosnianNamesAlt: "Engleski ekran vaktije s bosanskim nazivima namaza i odbrojavanjem do sljedećeg namaza.",
+        bosnianNamesTitle: "Bosanski nazivi namaza",
+        bosnianNamesBody: "Engleski interfejs može prikazati i bosanske nazive namaza za korisnike koji preferiraju lokalne izraze.",
+        nightInfoAlt: "Engleski ekran vaktije koji prikazuje informacije o zadnjoj polovini i zadnjoj trećini noći.",
+        nightInfoTitle: "Informacije o noćnom vremenu",
+        nightInfoBody: "Opcionalne informacije o noćnom vremenu mogu prikazati kada počinje zadnja polovina i zadnja trećina noći.",
+        simpleScheduleAlt: "Engleski ekran vaktije fokusiran na odabrani grad, datum i dnevni raspored.",
+        simpleScheduleTitle: "Dnevni raspored",
+        simpleScheduleBody: "Pregledan prikaz rasporeda omogućava laku provjeru odabranog grada, datuma i dnevnih vremena namaza.",
+        widgetsEyebrow: "Widgeti",
+        widgetsTitle: "Vakt na početnom ekranu",
+        widgetsOverviewAlt: "Početni ekran iPhonea s VaktPray widgetima za odbrojavanje, dnevna vremena namaza i informacije o noćnom vremenu.",
+        widgetsOverviewTitle: "Opcije widgeta",
+        widgetsOverviewBody: "Widgeti mogu prikazati odbrojavanje do sljedećeg namaza, današnja vremena namaza, kompaktno odbrojavanje i informacije o noćnom vremenu.",
+        settingsEyebrow: "Postavke",
+        settingsTitle: "Kontrole za jezik, prikaz i obavijesti",
+        settingsBosnianGeneralAlt: "Bosanski ekran postavki s jezikom, dodatnim vremenskim informacijama, zvukovima obavijesti i kontrolama vremena obavijesti.",
+        settingsBosnianGeneralTitle: "Bosanske postavke",
+        settingsBosnianGeneralBody: "Bosanski ekran postavki uključuje izbor jezika, dodatne vremenske informacije, zvukove obavijesti i opcije vremena obavijesti.",
+        settingsBosnianNotificationsAlt: "Bosanski ekran postavki obavijesti s kontrolama za svaki namaz i opcijama džuma rasporeda.",
+        settingsBosnianNotificationsTitle: "Bosanske postavke obavijesti",
+        settingsBosnianNotificationsBody: "Kontrole za svaki namaz omogućavaju korisnicima da odrede koje obavijesti se zakazuju i kada se prikazuju.",
+        settingsEnglishGeneralAlt: "Engleski ekran postavki s jezikom, dodatnim vremenskim informacijama, zvukovima obavijesti i kontrolama vremena obavijesti.",
+        settingsEnglishGeneralTitle: "Engleske postavke",
+        settingsEnglishGeneralBody: "Engleski ekran postavki nudi iste opcije za jezik, prikaz, zvuk i vrijeme obavijesti.",
+        settingsEnglishNotificationsAlt: "Engleski ekran postavki obavijesti s kontrolama za svaki namaz i opcijama Dhuhr rasporeda u džamiji.",
+        settingsEnglishNotificationsTitle: "Engleske postavke obavijesti",
+        settingsEnglishNotificationsBody: "Kontrole obavijesti uključuju odvojene postavke za svaki namaz i opcije za Dhuhr raspored u džamiji.",
+        aboutEyebrow: "O aplikaciji",
+        aboutTitle: "Informacije o privatnosti i podršci",
+        aboutBosnianAlt: "Bosanski ekran o aplikaciji s verzijom, privatnošću, obavijestima, podrškom, emailom i web stranicom.",
+        aboutBosnianTitle: "Bosanski ekran o aplikaciji",
+        aboutBosnianBody: "Bosanska stranica O aplikaciji prikazuje verziju aplikacije, detalje privatnosti, ponašanje obavijesti, podršku i web stranicu.",
+        aboutEnglishAlt: "Engleski ekran o aplikaciji s verzijom, privatnošću, obavijestima, podrškom, emailom i web stranicom.",
+        aboutEnglishTitle: "Engleski ekran o aplikaciji",
+        aboutEnglishBody: "Engleska stranica O aplikaciji daje korisnicima iste informacije o verziji, privatnosti, obavijestima, podršci i web stranici."
       },
       privacy: {
         eyebrow: "Pravila privatnosti",
@@ -187,6 +293,13 @@
       const value = getNestedValue(selectedLanguage, element.dataset.i18nAriaLabel);
       if (value) {
         element.setAttribute("aria-label", value);
+      }
+    });
+
+    document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
+      const value = getNestedValue(selectedLanguage, element.dataset.i18nAlt);
+      if (value) {
+        element.setAttribute("alt", value);
       }
     });
 
