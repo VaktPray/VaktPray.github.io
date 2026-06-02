@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VaktPray</title>
+  <meta name="description" content="VaktPray is an offline iOS app focused exclusively on Islamic prayer times for 🇧🇦 Bosnia and Herzegovina, with notifications, widgets, night-time information, and Apple Watch support.">
+  <link rel="canonical" href="https://vaktpray.github.io/">
+  <link rel="icon" href="assets/vaktpray-icon.jpg">
+  <link rel="apple-touch-icon" href="assets/vaktpray-icon.jpg">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/i18n.js" defer></script>
+  <script src="assets/contact.js" defer></script>
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="VaktPray home">
+      <img src="assets/vaktpray-icon.jpg" width="44" height="44" alt="">
+      <span>VaktPray</span>
+    </a>
+    <div class="header-actions">
+      <nav aria-label="Main navigation">
+        <a href="privacy.html" data-i18n="common.privacy">Privacy</a>
+        <a href="support.html" data-i18n="common.support">Support</a>
+      </nav>
+      <label class="language-switch">
+        <span class="visually-hidden" data-i18n="common.language">Language</span>
+        <select id="language-select" aria-label="Language" data-i18n-aria-label="common.language">
+          <option value="en">🇬🇧 English</option>
+          <option value="bs">🇧🇦 Bosanski</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="home.heroEyebrow">Prayer times for iPhone</p>
+        <h1>VaktPray</h1>
+        <p class="lede" data-i18n="home.heroText">An offline iOS app focused exclusively on Islamic prayer times for 🇧🇦 Bosnia and Herzegovina, with daily prayer notifications, widgets, night-time information, and Apple Watch support. No data collected.</p>
+      </div>
+    </section>
+
+    <section class="overview" aria-labelledby="overview-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.detailsEyebrow">App Details</p>
+        <h2 id="overview-title" data-i18n="home.detailsTitle">Built for daily prayer time checks</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3 data-i18n="home.offlineTitle">Offline prayer data</h3>
+          <p data-i18n="home.offlineBody">Prayer time data is included in the app, so no internet connection is required after installation.</p>
+        </article>
+        <article class="feature-card">
+          <h3 data-i18n="home.remindersTitle">Local reminders</h3>
+          <p data-i18n="home.remindersBody">Prayer reminders are scheduled on your device through iOS notification settings.</p>
+        </article>
+        <article class="feature-card">
+          <h3 data-i18n="home.widgetsTitle">Widgets</h3>
+          <p data-i18n="home.widgetsBody">Widgets use the app's private shared storage to display your selected city and prayer schedule.</p>
+        </article>
+        <article class="feature-card">
+          <h3 data-i18n="home.watchTitle">Apple Watch</h3>
+          <p data-i18n="home.watchBody">Apple Watch support keeps prayer time information available from your wrist.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split-section" aria-labelledby="links-title">
+      <div>
+        <p class="eyebrow" data-i18n="home.linksEyebrow">App Store Links</p>
+        <h2 id="links-title" data-i18n="home.linksTitle">Public URLs</h2>
+        <p data-i18n="home.linksBody">These pages are available for users and App Store review.</p>
+      </div>
+      <div class="link-list">
+        <a href="privacy.html">
+          <span data-i18n="common.privacyPolicy">Privacy Policy</span>
+          <strong>vaktpray.github.io/privacy.html</strong>
+        </a>
+        <a href="support.html">
+          <span data-i18n="common.support">Support</span>
+          <strong>vaktpray.github.io/support.html</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>VaktPray</span>
+    <a class="js-support-email" href="#support-email">Show support email</a>
+  </footer>
+</body>
+</html>

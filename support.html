@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support | VaktPray</title>
+  <meta name="description" content="Support contact information for the VaktPray iOS app.">
+  <link rel="canonical" href="https://vaktpray.github.io/support.html">
+  <link rel="icon" href="assets/vaktpray-icon.jpg">
+  <link rel="apple-touch-icon" href="assets/vaktpray-icon.jpg">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/i18n.js" defer></script>
+  <script src="assets/contact.js" defer></script>
+</head>
+<body data-page="support">
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="VaktPray home">
+      <img src="assets/vaktpray-icon.jpg" width="44" height="44" alt="">
+      <span>VaktPray</span>
+    </a>
+    <div class="header-actions">
+      <nav aria-label="Main navigation">
+        <a href="privacy.html" data-i18n="common.privacy">Privacy</a>
+        <a aria-current="page" href="support.html" data-i18n="common.support">Support</a>
+      </nav>
+      <label class="language-switch">
+        <span class="visually-hidden" data-i18n="common.language">Language</span>
+        <select id="language-select" aria-label="Language" data-i18n-aria-label="common.language">
+          <option value="en">🇬🇧 English</option>
+          <option value="bs">🇧🇦 Bosanski</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="support-hero">
+      <div class="support-copy">
+        <p class="eyebrow" data-i18n="support.eyebrow">Support</p>
+        <h1 data-i18n="support.title">VaktPray Support</h1>
+        <p class="lede" data-i18n="support.lede">For support, bug reports, or feedback, contact VaktPray by email.</p>
+        <a class="email-link js-support-email" href="#support-email">Show support email</a>
+      </div>
+    </section>
+
+    <section class="support-details" aria-labelledby="support-details-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="support.detailsEyebrow">Contact Details</p>
+        <h2 id="support-details-title" data-i18n="support.detailsTitle">What to include</h2>
+      </div>
+      <div class="feature-grid two">
+        <article class="feature-card">
+          <h3 data-i18n="support.requestsTitle">Support requests</h3>
+          <p data-i18n="support.requestsBody">Include what happened, what you expected to happen, and whether the issue is repeatable.</p>
+        </article>
+        <article class="feature-card">
+          <h3 data-i18n="support.bugsTitle">Bug reports</h3>
+          <p data-i18n="support.bugsBody">Include your iOS version, device model, selected city, notification setting, and app version if available.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split-section" aria-labelledby="privacy-link-title">
+      <div>
+        <p class="eyebrow" data-i18n="common.privacy">Privacy</p>
+        <h2 id="privacy-link-title" data-i18n="common.privacyPolicy">Privacy Policy</h2>
+        <p data-i18n="support.privacyBody">VaktPray does not collect personal data from the app, does not use analytics, and does not track you.</p>
+      </div>
+      <div class="link-list">
+        <a href="privacy.html">
+          <span data-i18n="support.readPolicy">Read the policy</span>
+          <strong data-i18n="common.privacyPolicy">Privacy Policy</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>VaktPray</span>
+    <a class="js-support-email" href="#support-email">Show support email</a>
+  </footer>
+</body>
+</html>
